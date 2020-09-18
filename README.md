@@ -37,10 +37,10 @@ Initial Release
 
 # Credits
 
-hp420 for testing & sharing MotoG3 system-wide volume boost
-chdloc for IIR biQuads discovery, app & info
-topjohnwu for  Magisk
-Alberto97 and CyanogenMod for updated system/device files + zip binary file
-lost101 and Motorola for stock system/device files
-Lukest85 for sharing, coding & compiling this mod + discovering & activating stereo speaker output for this device
+hp420 for testing & sharing MotoG3 system-wide volume boost  
+chdloc for IIR biQuads discovery, app & info  
+topjohnwu for  Magisk  
+Alberto97 and CyanogenMod for updated system/device files + zip binary file  
+lost101 and Motorola for stock system/device files  
+Lukest85 for sharing, coding & compiling this mod + discovering & activating stereo speaker output for this device  
 YOU for using this mod

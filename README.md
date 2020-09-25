@@ -34,6 +34,11 @@ If you liked this mod then please drop a thanks to the original author of the mo
 
 Initial Release
  -Uses the Medium profile of MixerMod
+ 
+### V 1.1
+ 
+Second Release
+ -Added Device and OS API checks to prevent any accidents
 
 # Credits
 

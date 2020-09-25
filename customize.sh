@@ -16,6 +16,30 @@ ui_print "    *******************************************"
 ui_print "    *          ! Use with CAUTION !           *"
 ui_print "    *******************************************"
 ui_print " "
+
+DEVICE=`getprop ro.product.system.device`
+
+ui_print "Device: "$DEVICE
+
+ui_print "Running Device Checks"
+
+if [ $DEVICE != "merlin" ]; then
+  abort " => Device '"$DEVICE"' is not supported"
+fi
+
+ui_print "Your Device '"$DEVICE"' is supported"
+
+if [ $API -ge 28 ]; then
+ui_print "  - Reached minimum API requirements"
+sleep 1
+ui_print "  - Continuing installation"
+break
+else
+ui_print "   - Does not reached minimum API requirements"
+sleep 1
+	abort 	 "   - Aborting"
+fi
+
 if [ -f /system/vendor/etc/mixer_paths.xml ]; then
 	mkdir -p `dirname $MODPATH/system/vendor/etc/mixer_paths.xml`
 	cp -af $MODPATH/mixer_paths.xml $MODPATH/system/vendor/etc/

@@ -2,7 +2,11 @@
 
 # What does this module do?
 This is a simple mod that turns the earpiece speaker to a standard speaker , giving us stereo experience.
-mixer_paths.xml config : +10dB to the left speaker volume and ±0dB in-call and -4dB to right/main speaker volume
+
+# Profiles -
+Activated : Activates the earpiece as secondary speaker, no other changes.  
+Balanced : Adds +10dB to earpiece speaker and -20dB to main speaker and increases output gain of earpiece speaker by x4.  
+Medium : Adds +10dB to earpiece speaker and adds -4dB to main speaker and increases output gain of earpiece speaker by x4.  
 
 # What Roms is it compatible with?
 
@@ -32,13 +36,18 @@ If you liked this mod then please drop a thanks to the original author of the mo
 
 ### V 1.0
 
-Initial Release
- -Uses the Medium profile of MixerMod
+Initial Release  
+ - Uses the Medium profile of MixerMod
  
 ### V 1.1
  
-Second Release
- -Added Device and OS API checks to prevent any accidents
+Second Release  
+ - Added Device and OS API checks to prevent any accidents
+ 
+### V 1.2
+
+Third Release  
+ - Added support for choosing different profiles
 
 # Credits
 

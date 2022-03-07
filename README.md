@@ -1,7 +1,9 @@
-# Merlin Dual Speaker MOD
+# Moto G Turbo Edition (Merlin) Dual Speaker MOD
 
 # What does this module do?
 This is a simple mod that turns the earpiece speaker to a standard speaker , giving us stereo experience.
+
+### ⚠️ This module is not for Redmi Note 9/10X 4G which has the same codename as Moto G Turbo Edition
 
 # Profiles -
 Activated : Activates the earpiece as secondary speaker, no other changes.  
